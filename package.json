@@ -9,6 +9,7 @@
   "license": "MIT",
   "scripts": {
     "build": "frans-scripts build --bundle",
+    "prepare": "npm run build",
     "test": "frans-scripts test",
     "lint": "frans-scripts lint",
     "format": "frans-scripts format",
